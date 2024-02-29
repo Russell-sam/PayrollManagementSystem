@@ -84,7 +84,7 @@ Partial Class addStaff
         ' 
         ' TextBox8
         ' 
-        TextBox8.Location = New Point(154, 79)
+        TextBox8.Location = New Point(154, 80)
         TextBox8.Name = "TextBox8"
         TextBox8.Size = New Size(100, 23)
         TextBox8.TabIndex = 7
