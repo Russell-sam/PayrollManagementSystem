@@ -1,15 +1,19 @@
 ﻿Public Class Form1
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If TextBox1.Text = "abcd" And TextBox2.Text = "123" Then
-            MsgBox("You login successfully")
-            Form2.Show()
-
+    Private Sub btn_login_Click(sender As Object, e As EventArgs) Handles btn_login.Click
+        If txt_username.Text = "admin" And txt_password.Text = "admin" Then
+            MsgBox("you login successfully")
+            txt_username.Text = ""
+            txt_password.Text = ""
+            Mainform.Show()
+            Me.Hide()
         Else
-            MsgBox("Wrong email or password")
+            MsgBox("Wrong username or password")
+            txt_username.Text = ""
+            txt_password.Text = ""
         End If
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub btn_close_Click(sender As Object, e As EventArgs) Handles btn_close.Click
         Me.Close()
     End Sub
 End Class
