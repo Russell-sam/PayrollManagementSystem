@@ -56,14 +56,14 @@ Partial Class addStaff
         ' 
         ' TextBox3
         ' 
-        TextBox3.Location = New Point(154, 109)
+        TextBox3.Location = New Point(154, 96)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(100, 23)
         TextBox3.TabIndex = 2
         ' 
         ' TextBox4
         ' 
-        TextBox4.Location = New Point(154, 151)
+        TextBox4.Location = New Point(154, 140)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(100, 23)
         TextBox4.TabIndex = 3
@@ -84,7 +84,7 @@ Partial Class addStaff
         ' 
         ' TextBox8
         ' 
-        TextBox8.Location = New Point(154, 79)
+        TextBox8.Location = New Point(154, 67)
         TextBox8.Name = "TextBox8"
         TextBox8.Size = New Size(100, 23)
         TextBox8.TabIndex = 7
@@ -99,25 +99,25 @@ Partial Class addStaff
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(41, 12)
+        Label1.Location = New Point(41, 17)
         Label1.Name = "Label1"
-        Label1.Size = New Size(49, 15)
+        Label1.Size = New Size(78, 15)
         Label1.TabIndex = 12
-        Label1.Text = "staff_no"
+        Label1.Text = "Staff Number"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(47, 109)
+        Label3.Location = New Point(43, 104)
         Label3.Name = "Label3"
-        Label3.Size = New Size(36, 15)
+        Label3.Size = New Size(81, 15)
         Label3.TabIndex = 14
-        Label3.Text = "email"
+        Label3.Text = "Email Address"
         ' 
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Location = New Point(35, 140)
+        Label10.Location = New Point(41, 140)
         Label10.Name = "Label10"
         Label10.Size = New Size(49, 15)
         Label10.TabIndex = 21
@@ -126,25 +126,25 @@ Partial Class addStaff
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Location = New Point(41, 37)
+        Label11.Location = New Point(41, 41)
         Label11.Name = "Label11"
-        Label11.Size = New Size(59, 15)
+        Label11.Size = New Size(64, 15)
         Label11.TabIndex = 22
-        Label11.Text = "Firstname"
+        Label11.Text = "First Name"
         ' 
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Location = New Point(41, 79)
+        Label13.Location = New Point(43, 75)
         Label13.Name = "Label13"
-        Label13.Size = New Size(55, 15)
+        Label13.Size = New Size(63, 15)
         Label13.TabIndex = 24
-        Label13.Text = "lastname"
+        Label13.Text = "Last Name"
         ' 
         ' Label19
         ' 
         Label19.AutoSize = True
-        Label19.Location = New Point(35, 188)
+        Label19.Location = New Point(43, 180)
         Label19.Name = "Label19"
         Label19.Size = New Size(38, 15)
         Label19.TabIndex = 30
@@ -153,7 +153,7 @@ Partial Class addStaff
         ' Label20
         ' 
         Label20.AutoSize = True
-        Label20.Location = New Point(43, 266)
+        Label20.Location = New Point(41, 263)
         Label20.Name = "Label20"
         Label20.Size = New Size(70, 15)
         Label20.TabIndex = 31
@@ -162,7 +162,7 @@ Partial Class addStaff
         ' Label21
         ' 
         Label21.AutoSize = True
-        Label21.Location = New Point(25, 218)
+        Label21.Location = New Point(41, 226)
         Label21.Name = "Label21"
         Label21.Size = New Size(40, 15)
         Label21.TabIndex = 32

@@ -24,7 +24,9 @@ Partial Class Mainform
     Private Sub InitializeComponent()
         Label1 = New Label()
         ToolStrip1 = New ToolStrip()
-        TableLayoutPanel1 = New TableLayoutPanel()
+        ToolStripLabel1 = New ToolStripLabel()
+        ToolStripLabel2 = New ToolStripLabel()
+        ToolStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
@@ -39,40 +41,41 @@ Partial Class Mainform
         ' 
         ' ToolStrip1
         ' 
+        ToolStrip1.Items.AddRange(New ToolStripItem() {ToolStripLabel1, ToolStripLabel2})
         ToolStrip1.Location = New Point(0, 0)
         ToolStrip1.Name = "ToolStrip1"
         ToolStrip1.Size = New Size(800, 25)
         ToolStrip1.TabIndex = 1
         ToolStrip1.Text = "ToolStrip1"
         ' 
-        ' TableLayoutPanel1
+        ' ToolStripLabel1
         ' 
-        TableLayoutPanel1.ColumnCount = 2
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
-        TableLayoutPanel1.Location = New Point(625, 133)
-        TableLayoutPanel1.Name = "TableLayoutPanel1"
-        TableLayoutPanel1.RowCount = 2
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel1.Size = New Size(200, 100)
-        TableLayoutPanel1.TabIndex = 2
+        ToolStripLabel1.Name = "ToolStripLabel1"
+        ToolStripLabel1.Size = New Size(0, 22)
+        ' 
+        ' ToolStripLabel2
+        ' 
+        ToolStripLabel2.Name = "ToolStripLabel2"
+        ToolStripLabel2.Size = New Size(56, 22)
+        ToolStripLabel2.Text = "Add Staff"
         ' 
         ' Mainform
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(TableLayoutPanel1)
         Controls.Add(ToolStrip1)
         Controls.Add(Label1)
         Name = "Mainform"
         Text = "Mainform"
+        ToolStrip1.ResumeLayout(False)
+        ToolStrip1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Label1 As Label
     Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents ToolStripLabel2 As ToolStripLabel
 End Class
