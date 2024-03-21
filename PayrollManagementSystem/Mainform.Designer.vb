@@ -51,7 +51,7 @@ Partial Class Mainform
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(259, 143)
+        Label1.Location = New Point(272, 156)
         Label1.Name = "Label1"
         Label1.Size = New Size(475, 86)
         Label1.TabIndex = 0
@@ -175,7 +175,7 @@ Partial Class Mainform
         Button1.Padding = New Padding(5, 0, 0, 0)
         Button1.Size = New Size(200, 44)
         Button1.TabIndex = 2
-        Button1.Text = "Groups"
+        Button1.Text = "Entries"
         Button1.TextAlign = ContentAlignment.MiddleRight
         Button1.UseVisualStyleBackColor = True
         ' 

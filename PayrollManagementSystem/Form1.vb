@@ -12,7 +12,6 @@
             txt_password.Text = ""
         End If
     End Sub
-
     Private Sub btn_close_Click(sender As Object, e As EventArgs) Handles btn_close.Click
         Me.Close()
     End Sub
